@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigator"
+    app:startDestination="@layout/fragment_edit_profile">
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.mainapplication.ui.EditProfile.EditProfileFragment"
+        android:label="Add"
+        tools:layout="@layout/fragment_edit_profile" />
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.example.likelab.List.ListFragment"
+        android:label="List"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.likelab.SettingFragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">ชื่อ :</string>
+    <string name="date">วันที่ :</string>
+    <string name="time">เวลา :</string>
+    <string name="add">เพิ่ม :</string>
+    <string name="username">ชื่อผู้ใช้ :</string>
+    <string name="addItem">เพิ่มข้อมูลผู้ใช้</string>
+    <string name="confirm">ตกลง</string>
+    <string name="editItem">แก้ไขข้อมูลผู้ใช้</string>
+    <string name="language" translatable="false">ภาษาไทย</string>
+    <string name="logout" > ออกจากระบบ</string>
+    <string name="deletealldata" >ลบข้อมูลทั้งหมด</string>
+
+</resources>
